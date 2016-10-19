@@ -1,0 +1,2 @@
+[22-Jun-2015 07:06:27 America/Bogota] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ecustic'@'localhost' (using password: NO) in /home/ecustic/public_html/Modelo/formulario.php on line 75
+[22-Jun-2015 07:06:27 America/Bogota] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ecustic/public_html/Modelo/formulario.php on line 75

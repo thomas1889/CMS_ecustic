@@ -1,0 +1,119 @@
+body
+{
+    background: #F4F4F4;
+    font-family: verdana;
+    color: #4C4C4C;
+    font-size: 16px;
+    text-align: center;
+}
+header
+{
+    margin: 0;
+    padding: 0.5em;
+    color: white;
+}
+#background{
+    background-image: url("../Assets/Img/resources/header.png");
+}
+
+#logo {
+    cursor:pointer;
+    text-align: left;
+    width:50%;
+    height:50%;
+
+    /* width:100%; */
+    /*font-size:50px;
+    font-weight:bold;*/
+    /*color:#0063D1;*/
+    /* El color para utilizar en este sitio es:   #A6CA57 */
+    /* El color para utilizar en este sitio es:   #A6CA57 */
+    /* El color para utilizar en este sitio es:   #A6CA57 */
+    /* El color para utilizar en este sitio es:   #A6CA57 */
+    /*color:#0063D1;*/
+    /*color:#F4AE01;
+    font-family:"Satisfy";
+    text-shadow:0 1px 0px rgba(155, 233, 255, 1);
+
+    -webkit-transform:rotate(-5deg);
+    -webkit-transition:color 0.4s ease-in-out;
+    -moz-transition:color 0.4s ease-in-out;
+    transition:color 0.4s ease-in-out;*/
+}
+#logo:hover {
+    /*color:#0063D1;*/
+    text-shadow:0 1px 0px rgba(0, 98, 118, 0.6); 
+}
+#menu
+{
+    background: white;
+    color: black;
+    border-radius: 0 1em 1em 0;
+}
+
+header span{
+    color: #ED1C24;
+}
+footer
+{
+    background: #FF9900;
+    clear: both;
+    color: white;
+    margin: 0;
+    padding: 0.5em;		
+}
+footer span a
+{
+    color: black;
+}
+h2
+{
+    text-align: center;
+    margin-top: 1em;
+}
+form input{
+    border-radius: 5px 5px 5px 5px; 
+    color: black;
+}
+div div{
+    margin-top: 1em;
+    padding: 0.5em;
+}
+div div div{
+    margin-top: 5px;
+    padding: 5px;
+}
+section{
+    background: #E9E9EA;
+    border-radius: 1em 0 0 0;
+    padding: 0.5em;
+    color: black;
+}
+section article{
+    margin-top: 0.2em;
+    margin-bottom: 0.7em;
+    border: 0.5em #333;
+    background: white;
+    border-radius: 1em 1em 1em 1em;
+    
+} 
+article figure{
+/*    background: white;
+    border-radius: 1em 1em 1em 1em;
+*/
+}
+article figure img{
+    width: 210px;
+    height: 210px;
+}
+article figcaption{
+    text-align: right;
+}
+article a{
+    color: black;
+    background: #FFCD05;
+    overflow: visible;
+    clear: both;
+}
+
+

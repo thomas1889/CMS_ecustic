@@ -1,0 +1,552 @@
+body
+{
+    font-family: 'Exo', sans-serif;
+    -webkit- font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    -webkit-font-size: 20px;
+    text-align: center;
+    -webkit-text-align: center;
+    margin-top: 0.4em;
+    -webkit-margin-top: 0.4em;
+    color: #888888;
+    -webkit-color: #888888;
+    font-weight: bold;
+    -webkit-font-weight: bold;
+}
+
+
+@media (min-width: 1050px){
+    header{
+        background-image: url("../Img/resources/header.png");   
+        -webkit-background-image: url("../Img/resources/header.png");   
+        background-repeat: no-repeat;
+        -webkit-background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-background-size: 100%;
+    }
+    .header{
+    max-width: 80%;
+    -webkit-max-width: 80%;
+    max-height: 10%;
+    -webkit-max-height: 10%;
+    min-width:60%;
+    -webkit-min-width:60%;
+    min-height:50%;
+    -webkit-min-height:50%;
+    float: right;
+    -webkit-float: right;
+    margin-top: -12%;
+    -webkit-margin-top: -12%;
+    z-index:0;
+    -webkit-z-index:0;
+    }   
+    .logo{
+        margin-top: 2px;
+        max-width: 30%;
+        min-width:320px;
+        height: auto;
+        float: left;
+        padding-left:3em;
+        z-index: 1000;
+    }
+    a .logo:active { 
+    width: 500px;
+    }
+    #listaCustic{
+        margin:auto;
+        margin-top: 1em;
+        box-shadow: none; 
+        border-style: none; 
+        text-transform: uppercase; 
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .navbar .nav,
+    .navbar .nav > li {
+        float:none;
+        display:inline-block;
+        *display:inline; 
+        vertical-align: top;
+        padding-left:-0.2px;
+    }
+
+    .navbar-inner {
+        text-align:center;
+    }
+
+    #listaEcustic{
+        border-right-style: solid;
+        border-right-color: #85C43F;
+    }
+    #listaEcustic a:hover{
+        background-color: #393185;
+        color: #FFFFFF;
+    }
+    .galeriaP{
+        width:85%;
+        height:600px;
+        text-align:center;
+        margin:auto;
+        border-radius:10px 10px 10px 10px;
+    }
+    .objGaleria{
+       width:85%;
+       height:600px; 
+    }
+    .embed{
+        width:85%;
+        height:600px; 
+    }
+}
+@media (max-width:1024px){
+    header{
+        background-color:white;   
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .header{
+    max-width: 100%;
+    max-height: 10%;
+    min-width:60%;
+    min-height:50%;
+    float: right;
+    margin-top: -12%;
+    }
+
+    .logo{
+        margin-top: 2px;
+        max-width: 15%;
+        min-width:300px;
+        height: auto;
+        left: 0;
+        z-index: 1000;
+        margin-bottom:4em;
+        padding-bottom: 2em;
+        z-index: 1000;
+    }
+    a .logo:active { 
+    width: 500px;
+    }
+    #listaEcustic{
+        border-right-style: solid;
+        border-right-color: #85C43F;
+    }
+    #listaEcustic a:hover{
+        background-color: #393185;
+        color: #FFFFFF;
+    }
+    .galeriaP{
+        width:85%;
+        height:400px;
+        text-align:center;
+        margin:auto;
+        border-radius:10px 10px 10px 10px;
+    }
+     .objGaleria{
+       width:85%;
+       height:400px; 
+    }
+    .embed{
+        width:85%;
+        height:400px; 
+    }
+}
+
+.clear{
+    float: none;
+    clear: both;
+}
+.redes{
+    float: right;
+    margin-top:-8%;
+}
+.networks{
+    min-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    max-width: 30px;
+}
+.fbt{
+    padding-left:10em;
+}
+.buscar{
+    border-style: none;
+    font-style:italic; 
+    margin-top: -1em;
+}
+
+.buscar input{
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 0.5em;
+    font-size: 0.9em;
+}
+
+.search{
+    max-height: 27px;
+    max-width: 27px;
+    margin-right: -4px;
+    margin-top: -3px;
+
+}
+
+#div1{
+    background-color: white;
+    box-shadow: rgba(220,220,220,.65) 0px 3px 0px 3px;
+    margin-top:1em;
+    margin-bottom: -1em;
+}#div2{
+    background-color: white;
+}
+
+.quienes_somos{
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+.quienes_somos button{
+    background-color: #A6CA57;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    border-style: none;
+    margin-bottom: 0.5em; 
+    font-size: 1.1em;
+}
+.quienes_somos button:hover{
+    box-shadow: 0 0 1em 0 #A6CA57;
+    color: gray;
+}
+.quienes_somos p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+
+}
+.servicios{
+    color: #393185;
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+section div div h1{
+    color: #393185;
+    font-size: 24px;
+}
+section div div p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+section div div hr{
+    color: #f00;
+    background-color: #393185;
+    height: 1px;
+    margin-top: -2px;
+
+}
+
+#acustica {
+    margin-top: 3em;
+    box-shadow: rgba(220,220,220,.65) 1px 1px 1px 1px;
+    max-height: 400px;
+}
+#acustica p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#acustica img{
+    max-width: 380px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#acustica a{
+    float: right;
+    min-width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+#acustica a img:hover{
+    background-color: #A6CA57;
+    border-radius: 50%;
+}
+#acustica a img{
+    text-align: center;
+    min-width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+#ambiental{
+    margin-top: 3em;
+    box-shadow: rgba(220,220,220,.65) 1px 1px 1px 1px;
+    max-height: 400px;
+}
+#ambiental p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#ambiental img{
+    max-width: 380px;
+    padding-left: 1%;
+    padding-right: 1%;
+
+
+}
+#ambiental a{
+    float: right;
+    min-width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+#ambiental a img:hover{
+    background-color: #A6CA57;
+    border-radius: 50%;
+}
+#ambiental a img{
+    text-align: center;
+    min-width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+
+#industrial{
+    margin-top: 3em;
+    box-shadow: rgba(220,220,220,.65) 1px 1px 1px 1px;
+    max-height: 400px;
+}
+#industrial p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#industrial img{
+    max-width: 380px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#industrial a{
+    float: right;
+    min-width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    max-height: 30px;
+}
+#industrial a img:hover{
+    background-color: #A6CA57;
+    border-radius: 50%;
+}
+#industrial a img{
+    text-align: center;
+    min-width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+@media(max-width: 1000px){
+
+    footer{
+       background-image: url("../Img/resources/footer.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+       padding-top: 10em;
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        font-size: 0.7em;
+        padding-bottom: 3em;
+    }
+    .contactos{
+        margin-top: -10em;
+        padding-bottom:2.5em; 
+        text-align: justify;
+        padding-left: 27%;
+    }
+
+    .contactos img{
+    max-width: 1.5em;
+    max-height: 1.5em;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    margin-left: 3em;
+    margin-top: 0.3em;
+    }
+
+    .contactos span{
+        margin-left: 0.5em;
+        margin-top: 0.3em;
+    }
+    .logfoot{
+       
+        text-align: right;
+        margin-right: 0.8em;
+        
+    }
+}
+
+
+@media (min-width:1001px ){
+    footer{
+        background-image: url("../Img/resources/footer.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+        margin-top: 1.5em;
+        padding-top: 3em;
+        color: black;
+        font-weight: bold;
+        text-align: left;
+        font-size: 0.7em;
+        padding-bottom: 2em;
+    }
+
+    .contactos img{
+    max-width: 1.5em;
+    max-height: 1.5em;
+    min-width: 1.5em;
+    min-height: 1.5em;
+    margin-left: 3em;
+    margin-top: 0.3em;
+    }
+
+    .contactos span{
+        margin-left: 0.5em;
+        margin-top: 0.3em;
+    }
+    .logfoot{
+        margin-top: 2em;
+        text-align: right;
+        margin-right: 0.8em;
+    }
+}
+/*  
+    titulos principales
+*/
+.titulos{
+    color: #393185;
+    text-align: left;
+    margin-left: 6%;
+}
+
+.arquitectonicaTexto{
+    color: #393185;
+    font-style: italic;
+}
+
+/* 
+estilos para los art赤culos
+*/
+#textoArticul{
+    margin: auto;
+    text-align: justify;
+    height: 520px;
+    margin-top: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    box-shadow: rgba(220,220,220,.65) 0px 2px 0px 2px;
+
+}
+
+#textoArticul img{
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#textoArticul a{
+    float: right;
+    margin-top: -0.5em;
+}
+
+#textoArticul a img{
+    text-align: center;
+    min-width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+#textoArticul a img:hover{
+    background-color: #A6CA57;
+    border-radius: 50%;
+}
+
+
+.t_textoArticul{
+    color: #393185;
+
+}
+
+
+/*
+a continuacion los estilos para el formulario de contacto.
+*/
+.textos{
+    text-align:justify;
+    padding-right:8%;
+    padding-top:3em;
+    padding-left:8%;
+    font-weight:normal;
+}
+
+
+#forContact{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    text-align: left;
+    margin-bottom: 1em;
+    border-right-style: 1em blue;
+}
+#forContact label{
+    margin-top: 1.5em;
+}
+#forContact input{
+    width: 90%;
+    height: auto;
+    background-color:#E4E4E4;
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    color: black;
+    padding: 0.3em;
+}
+#forContact button{
+    width: 90%;
+    height: auto;
+}
+#forContact textarea{
+    width: 90%;
+    max-width: 90%;
+    min-height: 120px;
+    max-height: 250px;
+    background-color:#E4E4E4;
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+    color: black;
+    padding: 0.5em;
+}
+
+
+.contactos_1{
+    text-align:left;
+    margin-top: 2em;
+    font-size: 0.8em;
+}
+.contactos_1 img{
+    max-width: 0.9em;
+    max-height: 0.9em;
+    min-width: 0.9em;
+    min-height: 0.9em;
+}
+.contactos_1 span{
+    margin-left: 0.5em;
+    padding-bottom: 1em;
+}
